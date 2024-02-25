@@ -6,7 +6,7 @@ Supernatural Detective Action Shooter in a post-apocalyptic South, where magic j
 
 Download GZDoom
 
-[GZDoom Download at ZDoom.org]: https://zdoom.org/downloads
+[GZDoom Download at ZDoom.org](https://zdoom.org/downloads)
 
 Drag and drop the latest .WAD File onto the GZDoom executable (For Windows)
 
@@ -18,4 +18,4 @@ PROFIT!
 
 The .WAD file can be edited natively with Ultimate Doom Builder.
 
-[Ultimate Doom Builder Repo on GitHub]: https://github.com/UltimateDoomBuilder/UltimateDoomBuilder
+[Ultimate Doom Builder Repo on GitHub](https://github.com/UltimateDoomBuilder/UltimateDoomBuilder)
