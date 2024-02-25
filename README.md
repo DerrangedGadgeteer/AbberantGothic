@@ -2,7 +2,7 @@
 
 Supernatural Detective Action Shooter in a post-apocalyptic South, where magic just suddenly started working one day and shit went bonkers.  
 
-![Early Screenshot](Screenshots/Screenshot 2024-02-25 063312.png)
+![Screenshots/Screenshot 2024-02-25 063312.png](https://github.com/DerrangedGadgeteer/AbberantGothic/blob/main/Screenshots/Screenshot%202024-02-25%20063312.png?raw=true)
 
 # Technical About
 
