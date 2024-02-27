@@ -11,19 +11,32 @@ It isn't long after you arrive, that both questions are answered...  You see Mr.
 ### Out front of cultist base.
 One cultist in front of player.
 > Cultist:
-> > "My brothers!  Prepare!  The boots of the tyrant march on our holy soil!"
-> Player:
-> > "Stop right there!"
+>  > "My brothers!  Prepare!  The boots of the tyrant march on our holy soil!"
 
-Cultist is scripted to flee from the player and run into the base.  If the player lets him get into the base, he will despawn and the whole base will be set to condition Orange.  If the player kills or captures the cultist, the base will be condition White. 
+> Player:
+>  > "Stop right there!"
+
+Cultist is scripted to flee from the player and run into the base.  If the player lets him get into the base, he will despawn and the whole base will be set to condition Orange.  If the player kills the cultist, the base will be condition White. 
 
 If the player captures the cultist:
 > Cultist:
-> > "Don't you DARE defile our holy temple!"
+>  > "Don't you DARE defile our holy temple!"
+
 > Player:
 >  1. "You mind explaining that body hanging up there?"
-> > Cultist:
+>  > Cultist:
 >  >  "He did the work of the tyrant too! You'll hang with him soon!"
-> >  2. 
+>  > Player:
+>  >  >  1. "Oh? How So? What did he do?"
+>  >  >  Cultist:
+>  >  >  > "If you come in with me... I'm sure The Great Speaker could teach you"
+>  >  >  Player:
+>  >  >  > 1. "Alright, but keep your hands out of your pockets, and no sudden moves." Cultist resumes scripted movement into the base, but at partial speed.
+>  >  >  > 2. "I'm sure he can, now hands behind your back."
+>  >  >  >  Cultist:
+>  >  >  >  "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
+>  >  >  2. "Hmm, That's nice, now, hands behind your back, you're under arrest!
+>  >  >  Cultist:
+>  >  >  "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
 >  2. "You're under arrest, stay right here!"
 >  > 2. "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
