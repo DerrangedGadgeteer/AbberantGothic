@@ -26,17 +26,22 @@ If the player captures the cultist:
 >  1. "You mind explaining that body hanging up there?"
 >  > Cultist:
 >  >  "He did the work of the tyrant too! You'll hang with him soon!"
+
 >  > Player:
 >  >  >  1. "Oh? How So? What did he do?"
 >  >  >  Cultist:
+
 >  >  >  > "If you come in with me... I'm sure The Great Speaker could teach you"
 >  >  >  Player:
+
 >  >  >  > 1. "Alright, but keep your hands out of your pockets, and no sudden moves." Cultist resumes scripted movement into the base, but at partial speed.
 >  >  >  > 2. "I'm sure he can, now hands behind your back."
 >  >  >  >  Cultist:
+
 >  >  >  >  "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
 >  >  >  2. "Hmm, That's nice, now, hands behind your back, you're under arrest!
 >  >  >  Cultist:
+
 >  >  >  "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
 >  2. "You're under arrest, stay right here!"
 >  > 2. "Never you bastard!  Brothers! Help me!" resumes fleeing, and can no longer be captured.
