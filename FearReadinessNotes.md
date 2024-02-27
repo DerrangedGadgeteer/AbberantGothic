@@ -4,17 +4,17 @@ Shamelessly based on the video by Ryan McBeth
 
 ## Readiness
 - White:
-- - Will not react to player on sight
-- - 5 sec delay reaction on taking damage, go to Orange
+ - Will not react to player on sight
+ - 5 sec delay reaction on taking damage, go to Orange
 - Yellow:
-- - 2 sec delay on sight
-- - go to orange on taking damage
+ - 2 sec delay on sight
+ - go to red on taking damage
 - Orange:
-- - Standard doom idle state
+ - Standard doom idle state
 - Red: 
-- - Combat AI state
+ - Combat AI state
 - Black:
-- - Todo
+ - Todo
 
 ## Fear States
 
@@ -22,13 +22,13 @@ Fortitude 0-20
 Varies by character, also subject to bonuses and debuffs.
 
 - Fight Fortitude: 16-20
-- - Standard Doom AI, will charge the player and attack
+ - Standard Doom AI, will charge the player and attack
 - Posture Fortitude: 10-15
-- - Will seek cover, attack player at distance.
+ - Will seek cover, attack player at distance.
 - Flight Fortitude: 5-9
-- - Will flee to next area or nearest comrade, Raises Readiness of next area, Will seek cover, attacks player at distance.
+ - Will flee to next area or nearest comrade, Raises Readiness of next area, Will seek cover, attacks player at distance.
 - Submit Fortitude: 0-4
-- - Will seek cover, Will not attack player, can be arrested in this state
+ - Will seek cover, Will not attack player, can be arrested in this state
 
 ### Bonuses:
 - In sight of leader: +2
@@ -44,7 +44,6 @@ Varies by character, also subject to bonuses and debuffs.
 - Within 64 MU of another enemy when killed: -2 for 30 sec
 - Fear Spell: -4
 
-
-
 Savage Character: 20 fortitude, not subject to debuffs
+
 Leader Character: 17-19 Fortitude, not subject to wounding debuff
