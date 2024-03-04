@@ -8,7 +8,7 @@ Most recently, the cult has been linked with the disappearance of David Mathers,
 
 ## First Scripted Event:
 
-- [] Done
+- [ ] Done
 
 Player spawns outside the theater, face-to-face with a cultist enemy.  The enemy delivers lines of dialogue and is scripted to run from the player into the theater.  
 
@@ -16,7 +16,7 @@ If the cultist reaches the doors of the theater, all non-savage enemies will be 
 
 ## Sneaking In:
 
-- [] Done
+- [ ] Done
 
 If the player kills the cultist, enemy AI's will be mostly Condition White.  The Cultists in the main hall will be facing the stage, and will be unarmed.  The Grand Deacon will be on the stage, and a distant, muffled sermon audio track will play from the main hall.  The Horrors will be locked up in the side room for discovery later.  
 
@@ -24,7 +24,7 @@ Sound Blocking Linedefs will keep any shots outside the main hall from waking th
 
 ## Make a Grand Entrance:
 
-- [] Done
+- [ ] Done
 
 If, after sneaking in, the player simply walks into the main hall, they trigger a scripted event.  The Grand Deacon is a non-human monster (Pattern: Hell Knight) and it triggers a line of dialogue egging the assebled cultists to attack the player.  All enemies in the main hall are set to Condition Red, with player as the active target.  Infighting is disabled as long as the Grand Deacon is still alive, and cultists get a 2x health boost.
 
@@ -36,7 +36,7 @@ If the player has already killed the Horrors, then the Deacon is encountered in 
 
 ## Investigate:
 
--[] Done
+-[ ] Done
 
 The player can loop around the back of the theater, and find that the scene shop has an unlocked garage door.  Inside the scene shop, there is an NPC, the stage manager.  The Stage Manager is friendly, provides testimony about the cult's doings, informs the player about the horrors,  the Hostages, the cult's weapon cache, and gives a stage manager's key. The Stage Manager's key gives access to the backstage hallway doors, the stage access doors, and the ticket booth.  
 
