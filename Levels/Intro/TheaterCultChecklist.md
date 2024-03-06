@@ -22,6 +22,16 @@ If the player kills the cultist, enemy AI's will be mostly Condition White.  The
 
 Sound Blocking Linedefs will keep any shots outside the main hall from waking the Horrors and the cultists in the main hall.  
 
+## Gun's Blazing:
+
+- [ ] Done
+
+If the player allows the cultist to make it into the theater, a script will run opening the doors, and slamming them shut with a linedef action that will rebuff the player.  Once shut, the front doors will lock with the stage manager key required. The cultist will despawn, and the remaining enemies will be replaced.  The pickups in the armory room will be removed, and all unarmed cultist enemies will be replaced with armed ones in more tactical positions.  
+
+The Grand Deacon will be replaced with a different version, armed with the Caster, does more damage, and is surrounded with the Horrors from the Horror room.  
+
+Two armed cultists will be in the hostage room, and the hostages will be flagged as targets if the player opens the door to the hostage room.  
+
 ## Make a Grand Entrance:
 
 - [ ] Done
@@ -46,4 +56,17 @@ To the Left of the main enterance, there is the cult's Armory. If the script for
 
 On the right-side hallway, there are three rooms: An office, a meeting room converted to a hostage room, and a corpse room containing horrors.
 
-The Office has a desk and file cabinets.  There's evidence: Documents on the desk, and occult stuff in the cabinets.  
+The Office has a desk and file cabinets.  There's evidence: Documents on the desk, and occult stuff in the cabinets. On the desk, there's also a padlock key. 
+
+The hostage room has 3-6 NPC's flagged as friendly, but that can't move.  They have chain textures surrounding them, which are locked with the padlock key.  Hostages have lines of dialog providing clues to the location of the padlock key, and a warning about the room with the horrors. 
+
+The Horror room is a monster closet with two worms (Pattern: Freedoom Demon) and a shoggoth (Pattern: Freedoom Battle Slug) Counts towards evidence. 
+
+## Objectives
+
+- Kill the Grand Deacon
+- Rescue the hostages (including the Stage Manager)
+- Collect Evidence
+- Arrest as many cultists as possible (No cultists are arrestable while the Grand Deacon is still alive.)
+
+### Next level: Lyndale Villiage Hub
