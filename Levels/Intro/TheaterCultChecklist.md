@@ -6,6 +6,14 @@ The Villiage of Lyndale has been troubled by the emergence of a strange cult, ra
 
 Most recently, the cult has been linked with the disappearance of David Mathers, who's son had fallen in with the cult.  The time has come, and today, Marshall, you head to the theater they call their "Church" to get to the bottom of this.  Upon arriving, your decisions are made for you: The corpse of David Mathers is hung above the door to the theater on hooks.  You grab your gear, just in time for a cultist to step out and meet you.
 
+### Tutorial Option:
+
+Present the player with an option for a walkthrough before play starts.  Displays key instructions at each key game event.  
+
+Key points:
+- Handcuff and arrest mechanic
+- Morale, and enemies
+
 ## First Scripted Event:
 
 - [ ] Done
@@ -58,7 +66,7 @@ On the right-side hallway, there are three rooms: An office, a meeting room conv
 
 The Office has a desk and file cabinets.  There's evidence: Documents on the desk, and occult stuff in the cabinets. On the desk, there's also a padlock key. 
 
-The hostage room has 3-6 NPC's flagged as friendly, but that can't move.  They have chain textures surrounding them, which are locked with the padlock key.  Hostages have lines of dialog providing clues to the location of the padlock key, and a warning about the room with the horrors. 
+The hostage room has 3-6 NPC's flagged as friendly, but that can't move.  They have chain textures surrounding them, which are locked with the padlock key.  Hostages have lines of dialog providing clues to the location of the padlock key, and a warning about the room with the horrors. The linedefs with the chain midtexture are locked by the padlock key, lower into the floor on action, and free the hostage NPC's to move.  Their movement target is changed to the gate in front of the level, and they despawn if they reach it. They're then counted as rescued.  
 
 The Horror room is a monster closet with two worms (Pattern: Freedoom Demon) and a shoggoth (Pattern: Freedoom Battle Slug) Counts towards evidence. 
 
